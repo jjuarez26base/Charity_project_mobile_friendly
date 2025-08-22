@@ -8,6 +8,47 @@ font-size: 20px;}
 
 .image {margin: 20px;}
 
+.image-steak {margin: 20px;}
+
 .popout-text {padding-left: 20px;
 color: blue;
 font-weight: bold;}
+
+@media (max-width: 600px) {.image {width: 200px;}
+
+    .image-steak {width: 225px;}
+
+    .heading-h2 {font-size: 15px;}
+
+    .Main-description {font-size: 12px;}
+
+    .Main-title {font-size: 20px;}
+
+    .popout-text {font-size: 16px;}
+}
+
+@media (min-width: 601px) and (max-width: 740px) {.image {width: 225px;}
+
+    .image-steak {width: 250px;}
+
+    .heading-h2 {font-size: 17px;}
+
+    .Main-description {font-size: 14px;}
+
+    .Main-title {font-size: 25px;}
+
+    .popout-text {font-size: 17px;}
+}
+
+@media (min-width: 741px) {.image {width: 300px;}
+
+    .image-steak {width: 339px;}
+
+    .heading-h2 {font-size: 21px;}
+
+    .Main-description {font-size: 18px;}
+
+    .Main-title {font-size: 35px;}
+
+    .popout-text {font-size: 21px;}
+}
